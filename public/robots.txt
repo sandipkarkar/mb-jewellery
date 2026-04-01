@@ -1,0 +1,13 @@
+# https://www.mbbrothergems.com — update host to match your live domain & VITE_SITE_URL
+User-agent: *
+Allow: /
+
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /account
+Disallow: /addresses
+Disallow: /cart
+Disallow: /wishlist
+
+Sitemap: https://www.mbbrothergems.com/sitemap.xml
