@@ -1,4 +1,4 @@
-import { Outlet, useLocation } from 'react-router';
+import { Outlet, ScrollRestoration, useLocation } from 'react-router';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { Toaster } from './ui/sonner';
@@ -26,6 +26,7 @@ function LayoutSeo() {
 export function Layout() {
   return (
     <div className="min-h-screen flex flex-col overflow-x-hidden">
+      <ScrollRestoration />
       <LayoutSeo />
       <Header />
       <main className="flex-1">
